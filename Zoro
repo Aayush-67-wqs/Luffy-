@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drag Papers ❤️</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&family=Homemade+Apple&display=swap'>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: 1000px;
+      background-image: url("https://i.ibb.co/fdz9HYWH/pngtree-pink-background-with-a-chocolate-box-rose-and-love-note-picture-image-16219621.png");
+      background-position: contain ;
+      background-size: ;
+    }
+
+    .paper {
+      background-image: url("https://i.ibb.co/HpMGCkD8/pngtree-floral-pink-border-background-image-596945.jpg");
+      background-size: 400px;
+      background-position: contain;
+      background-size: cover;
+      padding: 15px 75px;
+      transform: rotateZ(-5deg);
+      box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      cursor: grab;
+      width: 250px;
+      height: auto;
+    }
+
+    .paper.heart {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      padding: 0;
+      border-radius: 50%;
+    }
+
+    .paper.image {
+      padding: 10px;
+    }
+
+    .paper.image p {
+      font-size: 24px;
+    }
+
+    img {
+      height: 150px;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      user-select: none;
+      justify-items: center;
+    }
+    
+      
+      
+    }
+
+    .paper.heart::after {
+      content: "";
+      background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: 120px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      opacity: 0.6;
+    }
+
+    p {
+      font-family: 'Zeyada';
+      font-size: 45px;
+      font-weight: 50px;
+      color: red;
+      opacity: 2.0;
+      user-select: none;
+    }
+
+    .paper.red p {
+      color: red;
+      opacity: 2.0;
+    }
+p { 
+  color:  deepskyblue;
+  opacity: 2.0;
+  font-weight: 40px;
+}
+    .paper {
+      cursor: grab;
+    }
+
+    .paper:active {
+      cursor: grabbing;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="paper heart">
+    <p>I love you Ishika💓</p>
+  </div>
+
+  <div class="paper image">
+    <p>In your eyes, I </p>
+    <p> find my forever 👀∞</p>
+    <img src="https://i.ibb.co/d498WDLJ/IMG-20250415-063816-489.jpg" alt="img 10" loading="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>In your arms, </p>
+    <p> I found my home 👩‍❤️‍👨</p>
+    <img src="https://i.ibb.co/bMJN8Cyp/Messenger-creation-750-C71-C0-CF84-46-FC-9-EF2-362845-E7-A3-DF.jpg" alt="img 9" loading="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>Every love story is beautiful,</p>
+    <p> but ours is my favorite 💓</p>
+    <img src="https://i.ibb.co/ynmcKZc4/IMG-20250405-195022-681.jpg" alt="img 8" loading="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>Your voice is my </p>
+    <p> favorite sound 🤗</p>
+    <img src="https://i.ibb.co/xS4ThM76/IMG-20250328-071411-027.jpg" alt="img 7" alt="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>You’re the magic </p>
+    <p> I’ve been waiting for ✨🪄 </p>
+    <img src="https://i.ibb.co/XfvRsHGz/Messenger-creation-C7-BB35-C1-3-A12-4-D2-F-A4-F5-C68930286554.jpg" alt="img 6" loading="lazy" />
+  </div>
+
+  <div class="paper image">
+    <p>You turn the ordinary</p>
+    <p> into extraordinary 😍 </p>
+    <img src="https://i.ibb.co/PGnkDsT3/IMG-20250406-225124-383.jpg" alt="img 5" loading="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>My heart beats for you</p>
+    <p> and only you ❤️</p>
+    <img src="https://i.ibb.co/xSC6XHKc/Messenger-creation-F92183-CE-8-D14-4-B9-B-8-FCE-C4-EF64-CE96-A6.jpg" alt="img 4" loading="lazy"/>
+  </div>
+
+  <div class="paper image">
+    <p>You are my today,</p>
+    <p> tomorrow, and forever ☺️ </p>
+    <img src="https://i.ibb.co/spxVjPRf/IMG-20250329-070710-801.jpg" alt="img 3" loading="lazy" />
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> With you, every </p>
+    <p>moment is a new beginning 😍 </p> 
+    <img src="https://i.ibb.co/FqbCj8c3/IMG-20250407-064147-647.jpg" alt="img 2" loading="lazy" />
+  </div>
+
+  <div class="paper">
+    <p class="p1">Your love is my favorite melody</p>
+    <p class="p1"><span style="color: red !important;">❤️</span></p>
+    <img src="https://i.ibb.co/Sw0tQ9p1/Messenger-creation-5-F177-A32-F68-C-45-D8-98-FC-C40670-F6-DB03.jpg" alt="Your Image" loading="lazy" />
+  </div>
+
+  <div class="paper">
+    <p class="p1">Drag the papers to move!</p>
+  </div>
+
+  <script>
+    let highestZ = 1;
+
+    class Paper {
+      holdingPaper = false;
+      touchStartX = 0;
+      touchStartY = 0;
+      touchMoveX = 0;
+      touchMoveY = 0;
+      prevTouchX = 0;
+      prevTouchY = 0;
+      velX = 0;
+      velY = 0;
+      rotation = Math.random() * 30 - 15;
+      currentPaperX = 0;
+      currentPaperY = 0;
+      rotating = false;
+
+      init(paper) {
+        paper.addEventListener('touchmove', (e) => {
+          e.preventDefault();
+          if (!this.rotating) {
+            this.touchMoveX = e.touches[0].clientX;
+            this.touchMoveY = e.touches[0].clientY;
+            this.velX = this.touchMoveX - this.prevTouchX;
+            this.velY = this.touchMoveY - this.prevTouchY;
+          }
+
+          const dirX = e.touches[0].clientX - this.touchStartX;
+          const dirY = e.touches[0].clientY - this.touchStartY;
+          const dirLength = Math.sqrt(dirX * dirX + dirY * dirY);
+          const dirNormalizedX = dirX / dirLength;
+          const dirNormalizedY = dirY / dirLength;
+
+          const angle = Math.atan2(dirNormalizedY, dirNormalizedX);
+          let degrees = 180 * angle / Math.PI;
+          degrees = (360 + Math.round(degrees)) % 360;
+          if (this.rotating) {
+            this.rotation += (this.prevTouchX - this.touchMoveX) / 10;
+            paper.style.transform = `rotateZ(${this.rotation}deg)`;
+          } else {
+            paper.style.left = `${this.currentPaperX + this.touchMoveX - this.touchStartX}px`;
+            paper.style.top = `${this.currentPaperY + this.touchMoveY - this.touchStartY}px`;
+          }
+        });
+
+        paper.addEventListener('touchstart', (e) => {
+          this.touchStartX = e.touches[0].clientX;
+          this.touchStartY = e.touches[0].clientY;
+          this.prevTouchX = this.touchStartX;
+          this.prevTouchY = this.touchStartY;
+          this.holdingPaper = true;
+          this.currentPaperX = parseInt(paper.style.left || 0);
+          this.currentPaperY = parseInt(paper.style.top || 0);
+          paper.style.zIndex = ++highestZ;
+        });
+
+        paper.addEventListener('touchend', () => {
+          this.holdingPaper = false;
+          this.prevTouchX = 0;
+          this.prevTouchY = 0;
+        });
+      }
+    }
+
+    document.querySelectorAll('.paper').forEach((paper) => {
+      const draggablePaper = new Paper();
+      draggablePaper.init(paper);
+    });
+  </script>
+</body>
+</html>
